@@ -56,6 +56,11 @@ public class Car extends BaseTest{
 		Assert.assertTrue(head.contains("Used Cars for Sale in Carrollton, TX"));
 		
 	}
+	@Test
+	public void test() {
+		System.out.println("hello");
+		
+	}
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
