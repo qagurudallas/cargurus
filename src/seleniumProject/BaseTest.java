@@ -15,7 +15,9 @@ public class BaseTest {
 		driver.get("http://www.cargurus.com");
 	}
 	public void navigatetosearchbyZip() {
-		WebElement tab3 = driver.findElement(By.id("heroSearch-tab-2"));
+		//WebElement tab3 = driver.findElement(By.id("heroSearch-tab-2"));
+		WebElement tab3 = driver.findElement(By.className("ft-homepage-search__tabs__cpo"));
+		
 		tab3.click();
 		driver.findElement(By.id("dealFinderZipCPOId")).sendKeys("75006");
 		driver.findElement(By.id("dealFinderFormCPO_0")).click();
