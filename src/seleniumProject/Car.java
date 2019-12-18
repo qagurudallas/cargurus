@@ -14,8 +14,6 @@ import org.testng.annotations.Test;
 
 public class Car extends BaseTest{
 
-	WebDriver driver;
-
 	@BeforeMethod
 	public void setup() {
 		init();
